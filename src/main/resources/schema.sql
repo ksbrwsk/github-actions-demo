@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS person;
+
+CREATE TABLE person (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(10) NOT NULL
+);
